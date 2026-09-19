@@ -44,9 +44,9 @@
   /* ---- signup column (unchanged from your version, just re-scoped) ---- */
   .signup{text-align:center;}
   .signup h1{
-    font-family:'Cormorant Garamond', serif;
+    font-family:'EB Garamond', Garamond, 'Times New Roman', serif;
     font-size:18px; letter-spacing:4px; text-transform:uppercase;
-    font-weight:600; margin:0 0 20px;
+    font-weight:400; margin:0 0 20px;
   }
   .signup p{
     font-size:15px; line-height:1.7; color:var(--muted);
@@ -90,9 +90,12 @@
   .post-item{padding:22px 0; border-bottom:1px solid var(--line);}
   .post-item:first-of-type{padding-top:0;}
   .post-item .dato{font-size:13px; letter-spacing:1px; color:#999; margin:0 0 4px;}
-  .post-item .pubo{font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--oxblood); margin:0 0 6px;}
+  .post-item .meta{font-size:13px; color:#999; margin:0 0 10px; letter-spacing:0;}
+  .post-item .pubo{font-family:'Cormorant Garamond', serif; font-size:13px; letter-spacing:0.5px; text-transform:uppercase; color:var(--oxblood); margin:2px 0 8px; font-weight:300;}
+  .post-item .pubo a{ text-decoration:underline; text-decoration-color:#000; text-underline-offset:2px; color:#000; }
+  .post-item .pubo a:hover{ text-decoration:underline; color:#000; }
   .post-item h3{
-    font-family:'Cormorant Garamond', serif; font-weight:600; 
+    font-family:'EB Garamond', Garamond, 'Times New Roman', serif; font-weight:400;
     font-size:16px; margin:0 0 6px; line-height:1.3;
   }
   .post-item .autho{font-size:13px; font-style:italic; color:var(--muted); margin:0 0 10px;}
@@ -161,6 +164,15 @@
 
     <!-- ---- posts ---- -->
     <div class="posts">
+
+      <div class="post-item">
+        <p class="dato">September 2nd, 2026</p>
+        <p class="pubo"><a href="https://winemag.co.za/tag/platonist-wine-company/" target="_blank" rel="noopener">WINEMAG.CO.ZA</a></p>
+        <h3>"The Platonist Wine Company new releases"</h3>
+        <p class="autho">Christian Eedes</p>
+        <p class="meta">James Laurenson is Scottish-Ugandan and holds a fellowship in Classical Studies at the University of Edinburgh, He's also mad about wine and has launched his...</p>
+        <a class="read-more" href="https://winemag.co.za/tag/platonist-wine-company/" target="_blank" rel="noopener">[ read more ]</a>
+      </div>
 
       <div class="post-item">
         <p class="dato">July 11th, 2026</p>
